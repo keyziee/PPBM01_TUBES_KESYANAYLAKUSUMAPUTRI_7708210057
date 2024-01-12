@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/awan"
+    tools:context=".pembelian">
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="415dp"
+        android:layout_height="650dp"
+        android:background="#ECFDFF">
+
+        <LinearLayout
+            android:background="@drawable/happy"
+            android:layout_width="415dp"
+            android:layout_height="80dp"
+            android:orientation="horizontal"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Nama"
+            android:textColor="#0D4787"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <EditText
+                android:gravity="center"
+                android:layout_width="320dp"
+                android:layout_height="48dp"
+                android:hint="Silahkan Masukan Nama Penerima"
+                android:textStyle="bold"
+                android:textColor="#3C6F9B"
+                android:textSize="15sp"
+                android:background="@drawable/ckckck"></EditText>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Nomor Telepon"
+            android:textColor="#0D4787"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <EditText
+                android:gravity="center"
+                android:layout_width="320dp"
+                android:layout_height="48dp"
+                android:hint="Silahkan Masukan Nomor Telopon Penerima"
+                android:textStyle="bold"
+                android:textColor="#3C6F9B"
+                android:textSize="15sp"
+                android:background="@drawable/ckckck"></EditText>
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Alamat"
+            android:textColor="#0D4787"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <EditText
+                android:gravity="center"
+                android:layout_width="320dp"
+                android:layout_height="48dp"
+                android:hint="Silahkan Masukan Alamat Penerima"
+                android:textStyle="bold"
+                android:textColor="#3C6F9B"
+                android:textSize="15sp"
+                android:background="@drawable/ckckck"></EditText>
+
+        </LinearLayout>
+        <Spinner
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_makanan"
+            android:entries="@array/list_makanan"
+            android:padding="16dp"/>
+        <Button
+            android:background="#3C6F9C"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_pilih"
+            android:text="pilih makanan"/>
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"/>
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apakah anda ingin meningkatkan kualitas packaging?"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="#153D60"/>
+        <RadioGroup
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:layout_marginHorizontal="8dp"
+                android:background="@drawable/radio_selector"
+                android:button="@drawable/null_radio_button"
+                android:elevation="4dp"
+                android:gravity="center"
+                android:textColor="@drawable/radio_text_selector"
+                android:textStyle="bold"
+                android:text="IYA"/>
+            <RadioButton
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:layout_marginHorizontal="8dp"
+                android:background="@drawable/radio_selector"
+                android:button="@drawable/null_radio_button"
+                android:elevation="4dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@drawable/radio_text_selector"
+                android:text="TIDAK"/>
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical">
+
+        <com.ncorti.slidetoact.SlideToActView
+            android:id="@+id/example"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:text="Pesan"/>
+
+    </LinearLayout>
+
+</LinearLayout>

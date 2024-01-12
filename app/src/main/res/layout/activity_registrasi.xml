@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/awan"
+    tools:context=".registrasi">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="1600dp"
+        android:layout_height="132dp"
+        android:layout_gravity="center"
+        android:src="@drawable/character"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrasi"
+        android:textAlignment="center"
+        android:textColor="#0D4786"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/lineborwn" />
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="Nama Lengkap"
+        android:textStyle="bold"
+        android:textColor="#0D4787"
+        android:textSize="18dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <EditText
+            android:layout_width="320dp"
+            android:layout_height="48dp"
+            android:hint="  Silahkan Masukan Nama Lengkap"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:background="@drawable/rectanglebrown"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="Nomor Telopon"
+        android:textStyle="bold"
+        android:textColor="#0D4787"
+        android:textSize="18dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <EditText
+            android:layout_width="320dp"
+            android:layout_height="48dp"
+            android:hint="  Silahkan Masukan Nomor Telopon"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="17dp"
+            android:background="@drawable/rectanglebrown"></EditText>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+    </LinearLayout>
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="E-Mail"
+        android:textStyle="bold"
+        android:textColor="#0D4787"
+        android:textSize="18dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <EditText
+            android:layout_width="320dp"
+            android:layout_height="48dp"
+            android:hint="  Silahkan Masukan Alamat E-Mail"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="17dp"
+            android:background="@drawable/rectanglebrown"></EditText>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+    </LinearLayout>
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="Ussername"
+        android:textStyle="bold"
+        android:textColor="#0D4787"
+        android:textSize="18dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <EditText
+            android:layout_width="320dp"
+            android:layout_height="48dp"
+            android:hint="  Silahkan Masukan Ussername"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="17dp"
+            android:background="@drawable/rectanglebrown"></EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+    </LinearLayout>
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="Password"
+        android:textStyle="bold"
+        android:textColor="#0D4787"
+        android:textSize="18dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <EditText
+            android:layout_width="320dp"
+            android:layout_height="48dp"
+            android:hint="  Silahkan Masukan Password"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="17dp"
+            android:background="@drawable/rectanglebrown"></EditText>
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnregistrasi"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Klik button ini, Jika Pemasukan data sudah benar"
+        android:textSize="10sp">
+    </Button>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REGISTER"
+            android:textSize="20dp"
+            android:id="@+id/registrasiButton"
+            android:textColor="#86D9FB"/>
+    </LinearLayout>
+
+
+</LinearLayout>
